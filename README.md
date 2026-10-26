@@ -1,27 +1,39 @@
 # Linux System Information Checker
 
-## About
-A Bash scripting project built on Ubuntu Linux running on an AWS EC2 instance. It collects basic system information and saves reports to a log file.
+A Bash scripting project built on Ubuntu Linux running on an AWS EC2 instance. This script collects basic system information and records the output in a log file.
+
+## Project Objectives
+
+- Practice Linux system administration.
+- Automate basic system information collection using Bash.
+- Learn output redirection and log management.
+- Apply Git and GitHub version control workflows.
 
 ## Features
-- Displays the hostname and current user
-- Shows the current date and time
-- Reports system uptime
-- Displays memory and root disk usage
-- Shows the instance's private IP address
-- Checks for required commands
-- Saves output to a timestamped log report
 
-## Technologies
+- Displays hostname and current user.
+- Reports date, time, and system uptime.
+- Displays memory and root filesystem usage.
+- Shows the instance's private IP address.
+- Checks for required system commands.
+- Saves output to a log file with timestamps.
+
+## Technologies Used
+
 - Ubuntu Linux
 - AWS EC2
-- Bash scripting
+- Bash
 - Linux command-line utilities
 - Git and GitHub
 
 ## How to Run
 
-Clone or download this repository, then navigate to the project directory.
+Clone the repository:
+
+```bash
+git clone https://github.com/Neo-Aura/linux-system-information-checker.git
+cd linux-system-information-checker
+```
 
 Make the script executable:
 
@@ -35,18 +47,19 @@ Run the script:
 ./system-info.sh
 ```
 
-View the saved log:
+## Example Output
 
-```bash
-cat ~/linux-system-info/system-info.log
-```
+The script reports the hostname, current user, date and time, uptime, memory usage, disk usage, and private IP address.
 
 ## What I Learned
-- Writing and executing Bash scripts
-- Checking command availability
-- Collecting Linux system metrics
-- Redirecting output to a log file
-- Practicing Linux administration on AWS EC2
+
+- Writing and executing Bash scripts.
+- Checking command availability.
+- Monitoring basic Linux system resources.
+- Redirecting output to a log file.
+- Using Git to stage, commit, and publish project files.
 
 ## Project Status
-Learning project — features and documentation may be improved as I continue practicing Linux and Cloud/DevOps.
+
+Learning project — built and tested on an Ubuntu AWS EC2 instance. I will continue improving the script and documentation as I develop my Linux and Cloud/DevOps skills.
+
