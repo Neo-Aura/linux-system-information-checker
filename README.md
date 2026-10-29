@@ -48,8 +48,7 @@ Run the script:
 ```
 
 ## Example Output
-
-The script reports the hostname, current user, date and time, uptime, memory usage, disk usage, and private IP address.
+The following screenshot shows the script running on Ubuntu Linux on an AWS EC2 instance.
 
 ## What I Learned
 
